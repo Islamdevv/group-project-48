@@ -1,0 +1,36 @@
+.block {
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  .main_block {
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    background-color: #18253d;
+    border: 3px solid #3359b2;
+    border-radius: 10px;
+    .title-create {
+      margin: 30px 0;
+      color: #fff;
+      font-weight: 900;
+    }
+    .input-box {
+      margin: 10px 0;
+      .input-create {
+        padding: 10px 30px;
+        border: none;
+      }
+      .input-create:focus {
+        border: 7px solid #3359b2;
+      }
+      .input-create::placeholder {
+        font-size: 14px;
+        color: #405e91;
+      }
+    }
+    .btn-create {
+      padding: 5px 25px;
+      font-weight: 900;
+    }
+  }
+}
